@@ -1,1 +1,58 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(113, 179, 15);
+  color: black;
+  margin-bottom: 50px;
+}
+.card {
+  background-color: white;
+  margin: auto;
+  margin-top: 4rem;
+  width: 350px;
+  height: 400px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 8px 5px 5px red;
+}
+.card:hover {
+  transform: scale(1.1);
+  background-color: red (231, 26, 8, 0.9);
+  transform: rotateX(180deg);
+  color: rgb(255, 255, 255);
+  box-shadow: 8px 8px 5px white;
+}
+.top-icon {
+  position: absolute;
+  top: -9px;
+  left: 15px;
+  font-size: 80px;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 165px;
+  font-size: 75px;
+}
+.bottom-icon {
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  font-size: 80px;
+  transform: rotate(180deg);
+}
+.btn {
+  position: absolute;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 150px;
+  margin-left: 45%;
+  margin-top: 3%;
+}
+.Generate {
+  margin-top: 50px;
+  display: flex;
+}
